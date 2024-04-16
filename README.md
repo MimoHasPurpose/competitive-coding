@@ -4,3 +4,5 @@
 3. Fibonacci Number
 4. Tribonacci Number
 5. Water Bottles
+6.
+7.
