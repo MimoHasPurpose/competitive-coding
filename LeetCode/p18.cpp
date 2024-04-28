@@ -1,25 +1,29 @@
-// tTrapping rainwater problem
+// Increasing triplet subsequence.
 
-class Solution {
-    public int trap(int[] height) {
-        int ans = 0;
-        int i = 0;
-        int j = height.length - 1;
-        int leftMax = height[i];
-        int rightMax = height[j];
 
-        while (i < j) {
-            if (leftMax <= rightMax) {
-                ans += (leftMax - height[i]);
-                i++;
-                leftMax = Math.max(leftMax, height[i]);
-            } else {
-                ans += (rightMax - height[j]);
-                j--;
-                rightMax = Math.max(rightMax, height[j]);
+class Solution
+ {
+public:
+    bool increasingTriplet(vector<int>& nums)
+    {
+        int c1=INT_MAX,c2=INT_MAX;
+        for(int x:nums){
+            if(x<=c1){
+                c1=x;
+            }else if(x<=c2){
+                c2=x;
+            }else{
+                return true;
             }
         }
-
-        return ans;
+        return false;
     }
-}
+     
+       
+
+     
+        
+    
+};
+
+
