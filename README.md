@@ -34,10 +34,11 @@
     33.Maximum count of +ve and negative integers.
     34.Plus one
     35.K-th Largest element
-32.
-33.
-34.
-35. 36.avg salary excluding the minimum and maximum salary
+    32.largest number
+    33.maximum count of positive and negative integers
+    34.plus one
+    35.kth largest in the array
+    36.avg salary excluding the minimum and maximum salary
     37.min stack
     38.implement stack using queue
     39.implement queue using stack
@@ -49,4 +50,3 @@
     45.length of last word
     46.Remove Duplicate letters
     47.Reverse words in a string
-36.
