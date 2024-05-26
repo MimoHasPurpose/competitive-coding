@@ -1,4 +1,5 @@
 # 100dayLeetCode
+
 1. Palindrome Number
 2. Power of two
 3. Fibonacci Number
@@ -8,7 +9,7 @@
 7. Add to Array-form of Integer
 8. Maximum product of two elements in a subarray
 9. Median of Two sorted arrays
-10. 
+10.
 11.
 12.
 13.
@@ -29,9 +30,19 @@
 28.
 29.
 30.
-31.
-32. Largest Number
-33.Maximum count of +ve and negative integers.
-34.Plus one
-35.K-th Largest element
-
+31. 32.Largest Number
+    33.Maximum count of +ve and negative integers.
+    34.Plus one
+    35.K-th Largest element
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
+41.
+42.
+43.
