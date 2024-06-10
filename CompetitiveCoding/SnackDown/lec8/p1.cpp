@@ -1,6 +1,8 @@
 // KMP ALGORITHM
 #include <bits/stdc++.h>
 using namespace std;
+
+// -----PREFIX FUNCTION----------------
 vector<int> calPrefix(string pat, int N)
 {
     int i = 0, j = 1;
@@ -11,26 +13,34 @@ vector<int> calPrefix(string pat, int N)
         if (pat[i] == pat[j])
         {
             prefix[j] = i + 1;
-            i++; j++;
+            i++;
+            j++;
         }
         else
         {
-            if(i==0)
+            if (i == 0)
             {
-                prefix[j]=0;
+                prefix[j] = 0;
                 j++;
-            }else
+            }
+            else
             {
-                i=prefix[i-1];
+                i = prefix[i - 1];
             }
         }
     }
+    return prefix;
 }
 int main()
 {
     string txt, pat;
     cin >> txt >> pat;
     int N = (int)txt.size();
-    int M = (int)txt.size();
+    int M = (int)pat.size();
+    vector<int> prefix = calPrefix(pat, M);
+    for (int i = 0; i < M; i++)
+    {
+        cout << prefix[i] << " ";
+    }
     return 0;
 }
