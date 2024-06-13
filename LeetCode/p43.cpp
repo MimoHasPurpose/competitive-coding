@@ -1,4 +1,5 @@
-// find pivot index
+// find pivot element.
+
 class Solution
 {
 public:
