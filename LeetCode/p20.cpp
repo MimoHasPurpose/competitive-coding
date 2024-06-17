@@ -1,6 +1,8 @@
 // Given an array of integers arr, a lucky integer is an integer that has a frequency in the array equal to its value.
 
-// Return the largest lucky integer in the array. If there is no lucky integer return -1.
+// Return the largest lucky integer in the array. If t__HAVE_SPECULATION_SAFE_VALUE
+
+e is no lucky integer return -1.
 
 
 
@@ -16,5 +18,22 @@ public:
          if(it->first==it->second)return it->first; 
       }
      return -1;
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 };
