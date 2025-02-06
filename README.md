@@ -15,3 +15,9 @@ using namespace std;
 int main(){
     
 }
+```
+
+##### Running cpp code
+```
+g++ -o output.main filename.cpp
+```
