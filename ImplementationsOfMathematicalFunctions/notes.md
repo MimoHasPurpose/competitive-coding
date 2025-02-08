@@ -1,2 +1,9 @@
 ## Index
-- Permutation and combination
+
+- [ ] Permutation and combination
+- [ ] Recursion
+- [ ] Logic
+- [ ] Set Theory
+- [ ] Matrix Algebrae
+- [ ] Graph Theory
+- [ ] Group Theory
