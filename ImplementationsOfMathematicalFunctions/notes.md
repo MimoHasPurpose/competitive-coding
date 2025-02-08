@@ -1,2 +1,0 @@
-## Index
-- [ ] Permutation and combination
