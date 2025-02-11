@@ -7,3 +7,4 @@
 - [ ] Matrix Algebrae
 - [ ] Graph Theory
 - [ ] Group Theory
+- [ ] Machine Learning
