@@ -1,7 +1,9 @@
 ### Pair data structure
 
+---
+
 ```
- pair<int,string>p;
+    pair<int,string>p;
     p={2,"abcd"};
     pair<int,string >p1=p;
     p1.first=3;
@@ -17,3 +19,5 @@
         cout<<p_array[i].first<<" "<<p_array[i].second<<endl;
     }
 ```
+---
+
