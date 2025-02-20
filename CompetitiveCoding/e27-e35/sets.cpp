@@ -26,4 +26,14 @@ int main()
      auto it2=s.find("bcd");
      s.erase(it2);
      print(s);
+     s.erase("efg");
+
+     set<string> s;
+     int n;
+     cin>>n;
+     for(int i=0;i<n;++i){
+        string str;
+        cin>>str;
+        s.insert(str); // set is in lexicogrpahical order.
+     }
 }
