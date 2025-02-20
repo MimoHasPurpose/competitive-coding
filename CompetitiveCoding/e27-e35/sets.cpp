@@ -19,5 +19,11 @@ int main()
      s.insert("bcd");
      s.insert("efg");
      auto it=s.find("abc");
+     if(it!=s.end()){
+        cout<<(*it)<<endl;
+        s.erase(it);
+     }
+     auto it2=s.find("bcd");
+     s.erase(it2);
      print(s);
 }
