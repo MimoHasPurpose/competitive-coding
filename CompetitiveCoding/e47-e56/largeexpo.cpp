@@ -19,3 +19,4 @@ int main()
     cout<<binMultiply(10,5)<<endl;
 
 }
+
