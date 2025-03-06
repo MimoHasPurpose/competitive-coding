@@ -6,7 +6,7 @@ I will add solutions of 100 problems in leetcode for 100 days, the challenge is 
 
 ## Authors
 
-- [@Sanj-bot](https://www.github.com/Sanj-bot)
+- [@MimoHasPurpose](https://www.github.com/MimoHasPurpose)
 
 ### template
 ```
