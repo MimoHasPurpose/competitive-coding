@@ -2,18 +2,18 @@
 using namespace std;
 const int N=1e5+10;
 vector<int> g[N];
-int depth[N],height[N];
+
 void dfs(int vertex,int par=0){
     //take action on vertex after entering the vertex.
-    cout<<vertex<<endl;
+    
     
     for(int child:g[vertex]){
-        cout<<"par "<<vertex<<", child"<<child<<endl;
+    
         if(child==par) continue;
         //take action on child before entering the child node.
-        depth[child]=depth[vertex]+1;
+    
         dfs(child,vertex);
-        height[vertex]=max(height[vertex],height[child]+1);
+    
         //take action on child after exiting child node.
 
     }
@@ -33,6 +33,6 @@ int main()
         g[v2].push_back(v1);
     }    
     int q;
-    
+
 
 }
