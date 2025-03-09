@@ -16,7 +16,7 @@ int main()
 
 {
     int n;
-    cin>>n; // nodes in the tree.
+    cin>>n; // nodes in the tree.k
     for(int i=0;i<n-1;++i){
         int x,y;
         cin>>x>>y;
