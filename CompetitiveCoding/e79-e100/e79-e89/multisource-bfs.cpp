@@ -23,7 +23,7 @@ void reset(){
     for(int i=0;i<n;++i){
         for(int j=0;j<m;++j){
             vis[i][j]=0;
-            vis[i][j]=INF;
+            lev[i][j]=INF;  // Fixed line
         }
     }
 }
