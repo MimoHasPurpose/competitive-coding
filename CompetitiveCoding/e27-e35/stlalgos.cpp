@@ -26,5 +26,9 @@ int main()
 
     string s="abcdefghijklmnop";
     reverse(s.begin(),s.end());
+    auto sum=[](int x,int y){return x+y;};
+    cout<<sum(2,3);
+
+
     cout<<s<<endl;
 }
