@@ -21,3 +21,21 @@ int main(){
 ```
 g++ -o output.main filename.cpp
 ```
+
+#### Setup for sublime text:
+
+if u wanna setup sublime for cpp:
+- copy this as a new build system:
+
+```json
+{
+"cmd" : ["g++ -std=c++14 $file_name -o $file_base_name && timeout 4s ./$file_base_name<inputf.in>outputf.in"], 
+"selector" : "source.c",
+"shell": true,
+"working_dir" : "$file_path"
+}
+```
+run 3 tabs: `alt+shift+3` **main.cpp**, **inputf\.in** **outputf\.in**
+
+- in main.cpp : `ctrl+shift+B`
+
