@@ -1,7 +1,11 @@
 
-# #100daysOfLeetCode<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" width="50" height="50" alt="LeetCode Logo" style="vertical-align: middle;"/>
+# #100daysOfLeetCode
 
+<h4 align="center">
+    
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" width="50" height="50" alt="LeetCode Logo" style="vertical-align: middle;"/>
 
+</h4>
 I will add solutions of 100 problems in leetcode for 100 days, the challenge is also shared on linkedin.
 
 
