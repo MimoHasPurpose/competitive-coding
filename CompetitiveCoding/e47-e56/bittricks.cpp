@@ -42,6 +42,10 @@ void ClearMSBuptoi(int num,int i){
     cout<<result<<endl;
     printb(result);
 }
+void PowerOfTwo(int n){
+    if(n&(n-1)) cout<<":not power of 2:"<<endl;
+    else        cout<<":power of 2:"<<endl; 
+}
 int main()
 {
     
@@ -49,6 +53,7 @@ int main()
     printb(44);
     ClearLSBuptoi(59,4);
     ClearMSBuptoi(59,4);
+    PowerOfTwo(32);
     // char input;
     // cin>>input;
     // lowercase(input);
