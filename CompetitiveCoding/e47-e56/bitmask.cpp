@@ -2,20 +2,20 @@
 using namespace std;
 // bitmasking: bit + mask
 vector<vector<int>> subsets(vector<int>& nums){
-    int n=nums.size();
-    int subset_ct=(1<<n);
-    vector<vector<int>> subsets;
+    int n=nums.size();                          // array size
+    int subset_ct=(1<<n);                       // no of subsets 2^n
+    vector<vector<int>> subsets;                
 
-    for(int mask=0;mask<subset_ct;++mask){
-        vector<int> subset;
+    for(int mask=0;mask<subset_ct;++mask){      //mast 0-> subset_ct
+        vector<int> subset;                     // subset
         for(int i=0;i<n;++i){
-            if((mask&(1<<i))!=0){
-                subset.push_back(nums[i]);
+            if((mask&(1<<i))!=0){               //ith bit is 1
+                subset.push_back(nums[i]);      //push in subset
             }
         }
-        subsets.push_back(subset);
+        subsets.push_back(subset);              //push subset in subsets
     }
-    return subsets;
+    return subsets;                             //return result
 }
 int main()
 {
