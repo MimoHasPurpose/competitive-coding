@@ -44,3 +44,6 @@ run 3 tabs: `alt+shift+3` **main.cpp**, **inputf\.in** **outputf\.in**
 
 - in main.cpp : `ctrl+shift+B`
 
+### Game theory:
+- [usaco](https://usaco.guide/)
+
