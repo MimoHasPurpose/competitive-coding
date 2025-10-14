@@ -1,0 +1,1 @@
+g++ -o out binary.cpp & ./out
